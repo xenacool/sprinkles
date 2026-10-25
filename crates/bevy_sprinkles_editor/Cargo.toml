@@ -20,7 +20,7 @@ workspace = true
 shuffle-schedules = ["bevy/debug"]
 
 [dependencies]
-bevy = { workspace = true, features = ["jpeg", "file_watcher"] }
+bevy = { workspace = true, features = ["jpeg", "file_watcher", "system_clipboard"] }
 bevy_sprinkles = { version = "0.4.0", path = "../bevy_sprinkles" }
 serde = { workspace = true }
 ron = { workspace = true }

@@ -22,7 +22,6 @@ bevy = { version = "0.20", default-features = false, features = [
     "ui_bevy_render",
     "picking",
     "bevy_ui_widgets",
-    "system_clipboard",
     "bevy_scene",
     # "reflect_auto_register",
 ] }
